@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("images/bg.png");
+}
+
+.header{
+  position: relative;
+  top: 0px;
+  background-image: url("images/cofee.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menubar{
+  overflow: hidden;
+  width: 100%;
+  background-color: rgba(22, 20, 19, 0.50);
+  display: block;
+  margin: auto;
+  max-width: 2310px;
+}
+
+.menubar a{
+  padding: 30px 35px;;
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+  float: right;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-transition: 1s all ease;
+  -o-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.menubarH{
+  position: fixed;
+  top: 0%;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
+  display: block;
+  margin: auto;
+  max-width: 2310px;
+  box-shadow: 2px 5px 8px rgba(11, 11, 11, 0.57);
+}
+
+.menubarH a{
+  padding: 30px 35px;;
+  font-size: 1.2em;
+  color: rgba(40, 27, 10);
+  text-decoration: none;
+  float: right;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-transition: 1s all ease;
+  -o-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.menubarH a:first-child{
+  background-image: url("images/logo5.gif");
+  background-repeat: no-repeat;
+  padding: 40px;
+  width: 140px;
+  margin-left: 25px;
+  -webkit-background-size: contain ;
+  background-size: contain;
+  float: left;
+}
+
+.menubarH a:not(:first-child):hover{
+  background-color: #fbd50b;
+  -webkit-transition: 1s all ease;
+  -o-transition: 1s all ease;
+  transition: 1s all ease;
+  text-decoration: underline;
+}
+
+.menubar a:first-child{
+  background-image: url("images/logo4.gif");
+  background-repeat: no-repeat;
+  padding: 40px;
+  width: 140px;
+  margin-left: 25px;
+  -webkit-background-size: contain ;
+  background-size: contain;
+  float: left;
+}
+
+.menubar a:not(:first-child):hover{
+  background-color: #fbd50b;
+  -webkit-transition: 1s all ease;
+  -o-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.container{
+  margin: auto;
+  padding: 0px;
+  max-width: 1440px;
+}
+
+.container h1{
+  margin: auto;
+  padding: 140px;
+  width: 100%;
+  font-style: italic;
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
+  background: rgba(0, 0, 0, 0.53);
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  transition: 0.5s all;
+  background-image: url("images/head.jpeg");
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.container h1:hover{
+  font-size: 2em;
+  letter-spacing: 2px;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  transition: 0.5s all;
+  text-align: center;
+}
+
+.kecil{
+  color: orange;
+}
+
+.kecil:hover{
+  background: black;
+}
+
+span{
+  color: red;
+}
+
+.content{
+  background: rgba(40, 27, 10, 0.9);
+  margin: 0px 140px;
+}
+
+.contentB{
+  margin: 90px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.contentB .left{
+  margin: 10px;
+  background: white;
+  padding: 40px;
+}
+.contentB .right{
+  margin: 10px;
+  background: white;
+  padding: 40px;
+}
+
+#test1{
+  background: white;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+#test1 .isi{
+  margin: 200px;
+  text-align: center;
+  font-family: 'Avenir', black;
+}
+
+#test1 .isi h1{
+  font-size: 6em;
+}
+
+#test1 .isi p{
+  font-size: 4em;
+}
+
+marquee{
+  padding: 40px;
+  width: 100%;
+  background: black;
+  font-size: 3em;
+  color: white;
+}

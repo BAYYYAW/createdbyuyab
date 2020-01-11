@@ -65,7 +65,7 @@ body{
 }
 
 .menubarH a:first-child{
-  background-image: url("images/logo5.gif");
+  background-image: url("images/Logo5.gif");
   background-repeat: no-repeat;
   padding: 40px;
   width: 140px;
@@ -84,7 +84,7 @@ body{
 }
 
 .menubar a:first-child{
-  background-image: url("images/logo4.gif");
+  background-image: url("images/Logo4.gif");
   background-repeat: no-repeat;
   padding: 40px;
   width: 140px;
